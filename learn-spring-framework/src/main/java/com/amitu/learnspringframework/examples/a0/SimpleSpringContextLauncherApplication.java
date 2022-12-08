@@ -5,10 +5,8 @@ import org.springframework.context.annotation.AnnotationConfigApplicationContext
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
 
-import com.amitu.learnspringframework.game.GameRunner;
-
 @Configuration
-@ComponentScan("com.amitu.learnspringframework.examples.a1")
+@ComponentScan("com.amitu.learnspringframework.examples.a0")
 public class SimpleSpringContextLauncherApplication {
 	
 	public static void main(String[] args) {
