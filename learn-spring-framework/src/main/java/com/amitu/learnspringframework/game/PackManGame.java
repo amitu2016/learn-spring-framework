@@ -1,5 +1,8 @@
 package com.amitu.learnspringframework.game;
 
+import org.springframework.stereotype.Component;
+
+@Component
 public class PackManGame implements GamingConsole{
 
 	public void up() {
